@@ -7,6 +7,21 @@
         <meta charset="UTF-8"> <!--*conjunto de caracteres da
         lingua portuguesa* -->
         <title>HTML</title> <!--fica na barra do navegador-->
+        <style>
+            h1 {
+                color: green
+            }
+            body {
+                background-color: rgb(255,400,200);
+            }
+            .titulo-3{
+                background-color: rgb(59, 59, 194);
+            }
+            #cor-do-blog{
+                background-color: rgb(131, 132, 145);
+            }
+
+        </style>
       </head>
       <body>
           <p>Indice:</p>
@@ -29,14 +44,14 @@
           </ul>
           <hr>
           <br>
-          <h3 id='skills'> <em>Hard Skills</em></h3>
+          <h3 id='skills' class="titulo-3"> <em>Hard Skills</em></h3>
           <ul>
               <li>HTML</li>
               <li>Unix & Bash</li>
               <li>Git, GitHub</li>
               <li>CSS</li>
           </ul>
-          <h3> <em>Soft Skills</em> </h3>
+          <h3 class="titulo-3"> <em>Soft Skills</em> </h3>
           <ul>
               <li>Empatia</li>
               <li>Mediação de conflitos</li> 
@@ -44,10 +59,11 @@
               <li>Trabalhar sob pressão</li>
           </ul>
           <hr>
-          <a href="#minhafoto">clique para ver minha foto </a>
+          <a href="#minhafoto">Clique para ver minha foto </a>
           <br>
-          <a href="https://www.carlosbritto.com/"
-          target="blank">blog da minha região</a>
+          <a id="cor-do-blog"
+          href="https://www.carlosbritto.com/"
+          target="blank">Blog da minha região</a>
 
     </body>
     </html>
